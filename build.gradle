@@ -27,6 +27,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Jackson core library
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
+	// Jackson annotations
+	implementation 'com.fasterxml.jackson.core:jackson-annotations'
+	// Jackson data format module (optional, for example, for YAML or XML)
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
